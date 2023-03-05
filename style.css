@@ -5,10 +5,12 @@ min-height: 100vh;
 margin: 0;
 padding: 0;
 font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-background-color: #C3C3E6;
+background-color: #8bbbfa;
 }
 
-
+html {
+    display: flex;
+}
 
 .navbar {
     display: flex;
@@ -122,6 +124,7 @@ h1.header {
     height: 300px;
     padding: 30px;
     margin: 20px;
+    margin-bottom: 175px;
     justify-content: space-around;
 }
 
@@ -146,7 +149,7 @@ h1.header {
 .black-cat {
     box-shadow: 5px 2.5px 2.5px rgba(0, 0, 0, 0.452);
     border-radius: 5px;
-    border: 2px solid rgb(55, 59, 116);
+    border: 2px solid rgb(21, 31, 73);
     width: 200px;
     height: 200px;
 }
@@ -159,6 +162,7 @@ h1.header {
     justify-content: space-between;
     color: white;
     gap: 12px;
+    align-self: flex-end;
 }
 
 .footer-content1 {
